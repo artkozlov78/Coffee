@@ -1,0 +1,40 @@
+<Extensions>
+  <Version>1.5</Version>
+  <Panel>
+    <PanelId>CoffeService</PanelId>
+    <Type>Statusbar</Type>
+    <Icon>Concierge</Icon>
+    <Order>1</Order>
+    <Color>#02BBCC</Color>
+    <Name>Panel</Name>
+    <Page>
+      <Name>Сервис заказа кофе</Name>
+      <Row>
+        <Name>Кол-во чашек кофе</Name>
+        <Widget>
+          <WidgetId>CoffeeCount</WidgetId>
+          <Type>Spinner</Type>
+          <Options>size=4;style=plusminus</Options>
+        </Widget>
+      </Row>
+      <Row>
+        <Name>Кол-во чашек чая</Name>
+        <Widget>
+          <WidgetId>TeaCount</WidgetId>
+          <Type>Spinner</Type>
+          <Options>size=4;style=plusminus</Options>
+        </Widget>
+      </Row>
+      <Row>
+        <Name>Отправить в заказ</Name>
+        <Widget>
+          <WidgetId>SendButton</WidgetId>
+          <Name>Отправить секретарю</Name>
+          <Type>Button</Type>
+          <Options>size=4</Options>
+        </Widget>
+      </Row>
+      <Options/>
+    </Page>
+  </Panel>
+</Extensions>

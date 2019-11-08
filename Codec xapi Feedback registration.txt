@@ -1,0 +1,18 @@
+xCommand HttpFeedback Register FeedbackSlot: 1 ServerURL: "http://172.20.41.34:5000"  Format: JSON Expression: "Event/UserInterface/Extensions/Event" Expression: "Event/UserInterface/Extensions/Panel"
+
+xCommand HttpFeedback Register FeedbackSlot: 1 ServerURL: "http://10.10.143.108:5000"  Format: JSON Expression: "Event/UserInterface/Extensions/Event" Expression: "Event/UserInterface/Extensions/Panel"
+
+xStatus HttpFeedback 1
+
+
+<Command>
+  <HttpFeedback>
+    <Register command=”True”>
+      <FeedbackSlot>4</FeedbackSlot>
+      <ServerUrl>http://10.10.143.108:5000</ServerUrl>
+      <Format>XML</Format>
+      <Expression item=”1”>/Event/UserInterface/Extensions/Event</Expression>
+      <Expression item=”2”>/Event/UserInterface/Extensions/Panel</Expression>
+    </Register>
+  </HttpFeedback>
+</Command>
